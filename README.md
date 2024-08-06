@@ -1,7 +1,7 @@
 # DocuGit
 
 ## Overview
-DocuGit is a tool designed to automatically retrieve detailed code changes in repositories over a specified period. This tool is particularly useful for generating R&D reports, which can help companies receive tax incentives or cashback for employee salaries spent on research and development. The code changes can be fed into large language models (LLMs) such as ChatGPT for further analysis or report generation.
+DocuGit is a tool designed to automatically retrieve detailed code changes in repositories over a specified period. This tool is particularly useful for generating R&D reports, which can help companies receive grants, tax incentives or cashback for employee salaries spent on research and development. The code changes can be fed into large language models (LLMs) such as ChatGPT for further analysis or report generation.
 
 ## Features
 - **Automatic Code Retrieval**: Retrieves detailed code changes over a specified period.
