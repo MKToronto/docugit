@@ -1,0 +1,36 @@
+repositories:
+  # Replace /path/to/repoX with actual repository paths and branchX with the corresponding branch names
+  "/path/to/repo1": "branch1"  # e.g., "/Users/username/project1": "main"
+  "/path/to/repo2": "branch2"  # e.g., "/Users/username/project2": "develop"
+
+new_reports_dir: "generated_reports"
+start_date: "2023-12-01"      # Format: YYYY-MM-DD
+end_date: "now"               # Use "now" for the current date
+period: "monthly"             # Specify the period: "weekly", "bi-weekly", "monthly", "quarterly", or "yearly"
+
+file_types:
+  - ".py"
+  - ".sh"
+  - ".md"
+  - ".yml"
+  - ".command"
+  - ".svelte"
+  - ".js"
+  - ".json"
+  - "Dockerfile"
+  - ".txt"
+
+ignore_file_names:
+  - "recipe.json"
+
+ignore_file_types:
+  - ".png"
+  - ".jpg"
+  - ".bin"
+  - ".npy"
+
+ignore_folders:
+  - "node_modules"
+  - ".mypy_cache"
+  - "mounted_vols"
+  - "batches_test"

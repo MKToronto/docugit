@@ -1,0 +1,8 @@
+name: docugit
+dependencies:
+  - python
+  - pip
+  - pip:
+    - GitPython
+    - python-dateutil
+    - PyYAML
