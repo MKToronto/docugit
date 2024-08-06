@@ -199,8 +199,8 @@ def divide(a, b):
 ```
 
 **Step 5: GPT Summarizes the Changes**
-GPT will then summarize:
-Changes to example_file.py:
+GPT will then summarize:  
+#### Changes to example_file.py:
 
 1. **Function `calculate_sum`**: Added an optional third parameter `c` to allow summing three numbers instead of two.
 
@@ -228,7 +228,7 @@ def another_function(y):
 
 GPT will then summarize:
 
-Changes to new_file.py:
+#### Changes to new_file.py:
 
 1. **Function `new_function`**: Takes a single argument `x` and returns its square.
 2. **Function `another_function`**: Takes a single argument `y` and returns its double.
